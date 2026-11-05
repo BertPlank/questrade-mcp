@@ -1,0 +1,13 @@
+{
+  "client_id": "https://raw.githubusercontent.com/BertPlank/questrade-mcp/main/client.json",
+  "client_name": "Questrade Momentum Bot",
+  "client_uri": "https://github.com/BertPlank/questrade-mcp",
+  "redirect_uris": [
+    "http://localhost:8765/callback",
+    "http://127.0.0.1:8765/callback"
+  ],
+  "grant_types": ["authorization_code", "refresh_token"],
+  "response_types": ["code"],
+  "token_endpoint_auth_method": "none",
+  "scope": "openid offline_access profile mcp:read mcp:write mcp:brokerage.accounts.read mcp:brokerage.positions.read mcp:brokerage.orders.read mcp:brokerage.securities.read mcp:brokerage.quotes.read mcp:brokerage.charts.read mcp:brokerage.balances.read mcp:brokerage.orders.all"
+}
